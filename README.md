@@ -2,15 +2,19 @@
 
 Glova library showcase app
 
-## Getting Started
+## For Contributors / Developers
 
-This project is a starting point for a Flutter application.
+We encourage you to develop using Android Studio, as we also push the changes of `.idea` directory, which owned by Intellij platform.
 
-A few resources to get you started if this is your first Flutter project:
+The step to start development:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Checkout the latest master source.
+2. Open the project using Android Studio.
+3. Go to menu `File -> Settings -> Appearance & Behavior -> Path Variables`.
+4. Set the `FLUTTER_SDK` path variable to your Flutter SDK directory.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+These ensure the project contributions to be on the same table. Happy code!
+
+## From Developers
+
+Made with :heart: by **Glovory** Mobile Tech Team 
