@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:glova/glova.dart';
 
 import 'component/app_bar_showcase.dart';
 import 'component/avatar_showcase.dart';
@@ -23,9 +24,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return OvaApp(
       title: 'Glova Showcase',
-      theme: ThemeData(
+      materialTheme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
