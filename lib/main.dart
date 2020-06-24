@@ -16,18 +16,37 @@ import 'component/spinner_showcase.dart';
 import 'component/tabs_showcase.dart';
 import 'component/text_field_showcase.dart';
 import 'component/toggle_showcase.dart';
+import 'config/color.dart';
 
 void main() {
   runApp(MyApp());
+}
+
+OvaColorSwatch getNewColorSwatch() {
+  return OvaColorSwatch(
+    primaryColor: AppColor.primary,
+    successColor: AppColor.success,
+    infoColor: AppColor.info,
+    warningColor: AppColor.warning,
+    dangerColor: AppColor.danger,
+  );
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return OvaApp(
+//      theme: OvaThemeData(
+//        colorSwatch: getNewColorSwatch(),
+//        buttonTheme: OvaButtonThemeData(
+//          swatch: getNewColorSwatch(),
+//          padding: {
+//            OvaButtonSize.medium: OvaPadding.only(left: 10, right: 30, top: 30, bottom: 0),
+//          },
+//        ),
+//      ),
       title: 'Glova Showcase',
       materialTheme: ThemeData(
-        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/',
