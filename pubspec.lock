@@ -58,12 +58,12 @@ packages:
     source: hosted
     version: "2.1.4"
   eva_color:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: eva_color
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1+1"
+    version: "1.1.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -77,11 +77,9 @@ packages:
   glova:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: d352e2bd69c5b7c5f5288c950e97a9122c2ee874
-      url: "https://github.com/glovory/glova.git"
-    source: git
+      path: "../glova"
+      relative: true
+    source: path
     version: "0.1.0"
   image:
     dependency: transitive
